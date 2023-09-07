@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(49, 47, 47);
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#logodnc{
+    padding: 30px;
+    margin-left: 60px;
+}
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 580px;
+    padding-top: 30px;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.but{
+    background-color: rgb(46, 98, 194);
+    color: aliceblue;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
